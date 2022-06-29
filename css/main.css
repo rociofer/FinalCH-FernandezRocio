@@ -219,3 +219,16 @@ p {
         font-size: 20px; }
   .formatoFooter p {
     font-size: 20px; } }
+
+.galeria .contenedorFotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px; }
+  .galeria .contenedorFotos .card {
+    background-color: #999999;
+    width: 18rem;
+    text-align: center; }
+    .galeria .contenedorFotos .card img {
+      width: 100%; }

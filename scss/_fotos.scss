@@ -1,0 +1,16 @@
+.galeria {
+    .contenedorFotos {
+        @include flex (flex, wrap, space-around, center);
+        gap: 20px;
+
+        .card {
+            background-color: rgb(153, 153, 153);
+            width: 18rem;
+            text-align: center;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
