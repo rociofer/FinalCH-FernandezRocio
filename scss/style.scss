@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@import "utilities/variables";
+@import "utilities/mixin";
+@import "utilities/extend";
+@import "header";
+@import "menu";
+@import "maininicio";
+@import "maincontacto";
+@import "mainhistoria";
+@import "mainformacion";
+@import "mainsobremi";
+@import "mainvoluntariado";
+@import "footer";
+@import "textos";
+@import "mediaqueries";

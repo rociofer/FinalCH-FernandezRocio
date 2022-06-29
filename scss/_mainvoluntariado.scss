@@ -1,0 +1,21 @@
+.mainVoluntariado {
+    @extend %estructura;
+    
+    .formatoLogo{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .formatoLink{
+        list-style-type: none;
+        font-family: 'Kalam', cursive;
+        font-size: 20px;
+        font-weight: 600;
+        background-color: rgb(219, 199, 241);
+        display: inline-block;
+        padding: 8px 7px 8px 7px;
+        border-radius: 50px;
+        margin-top: 30px;
+    }
+    
+}

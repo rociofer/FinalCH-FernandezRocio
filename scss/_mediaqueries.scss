@@ -1,0 +1,110 @@
+@media only screen and (min-width:720px) {
+
+    header {
+        .formatoTitulo1 {
+            font-size: 70px;
+            border: dotted 10px grey;
+            border-radius: 50px;
+            margin: 20px;
+        }
+    }
+
+    h2 {
+        font-size: 55px;
+    }
+
+    h3 {
+        font-size: 35px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .menuGeneral {
+        height: 40px; 
+        ul {    
+            gap:15px;
+            .menu {
+                font-size: 15px;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .formatoFooter {
+        font-weight: 600;
+    }
+
+    main {
+        .presentacion {
+            display: grid;
+            grid-template-areas: "mirada mirada"
+                                "video video"
+                                "comoSoy comoSoy";
+            margin: 3rem 0rem 3rem 0rem;
+            gap: 1rem;
+    
+            .comoSoy {
+                grid-area: comoSoy;
+                .caracteristicas{
+                    font-size: 25px;
+                } 
+                .foto{
+                    width: 400px;
+                }    
+            }
+        }
+        .conteiner {
+            width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }  
+    }
+
+    .formatoLogo {
+        height: 200px;
+    }
+
+    form{
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .formatoConsulta{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    
+    header {
+        .formatoTitulo1 {
+            font-size: 90px;
+        }
+    }
+
+    h2 {
+        font-size: 65px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    .menuGeneral {
+        height: 50px; 
+        ul {    
+            gap:20px;
+            .menu {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .formatoFooter {  
+        p {
+            font-size: 20px;
+        }
+    }
+}
