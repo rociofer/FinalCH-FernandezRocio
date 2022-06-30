@@ -29,6 +29,8 @@ header .formatoTitulo1 {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center; }
+    .menuGeneral ul :hover {
+      transform: scale(1.2); }
     .menuGeneral ul .menu {
       list-style-type: none;
       font-size: 10px;
@@ -230,8 +232,9 @@ p {
     align-items: center;
     gap: 20px; }
     .galeria .contenedorFotos .card {
-      background-color: #999999;
+      background-color: #cccccc;
       width: 18rem;
-      text-align: center; }
+      text-align: center;
+      box-shadow: 10px 5px 5px grey; }
       .galeria .contenedorFotos .card img {
         width: 100%; }

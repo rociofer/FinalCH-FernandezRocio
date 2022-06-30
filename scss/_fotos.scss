@@ -1,16 +1,17 @@
 .galeria {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    
+
     .contenedorFotos {
         @include flex (flex, wrap, space-around, center);
         gap: 20px;
 
 
         .card {
-            background-color: rgb(153, 153, 153);
+            background-color: $color-fondo-fotos;
             width: 18rem;
             text-align: center;
+            box-shadow: 10px 5px 5px grey;
 
             img {
                 width: 100%;
